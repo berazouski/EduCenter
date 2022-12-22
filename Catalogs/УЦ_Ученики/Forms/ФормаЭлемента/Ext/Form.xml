@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Контрагент" id="13">
+			<DataPath>Объект.Контрагент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ДатаРождения" id="16">
+			<DataPath>Объект.ДатаРождения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="Пол" id="19">
+			<DataPath>Объект.Пол</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПолКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ПолРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="Фамилия" id="22">
+			<DataPath>Объект.Фамилия</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ФамилияКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ФамилияРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="Имя" id="25">
+			<DataPath>Объект.Имя</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ИмяКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ИмяРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="Отчество" id="28">
+			<DataPath>Объект.Отчество</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОтчествоКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ОтчествоРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="ДатаРегистрации" id="31">
+			<DataPath>Объект.ДатаРегистрации</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаРегистрацииКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ДатаРегистрацииРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<Table name="КонтактныеЛица" id="34">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.КонтактныеЛица</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="КонтактныеЛицаКонтекстноеМеню" id="35"/>
+			<AutoCommandBar name="КонтактныеЛицаКоманднаяПанель" id="36"/>
+			<ExtendedTooltip name="КонтактныеЛицаРасширеннаяПодсказка" id="37"/>
+			<SearchStringAddition name="КонтактныеЛицаСтрокаПоиска" id="38">
+				<AdditionSource>
+					<Item>КонтактныеЛица</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="КонтактныеЛицаСтрокаПоискаКонтекстноеМеню" id="39"/>
+				<ExtendedTooltip name="КонтактныеЛицаСтрокаПоискаРасширеннаяПодсказка" id="40"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="КонтактныеЛицаСостояниеПросмотра" id="41">
+				<AdditionSource>
+					<Item>КонтактныеЛица</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="КонтактныеЛицаСостояниеПросмотраКонтекстноеМеню" id="42"/>
+				<ExtendedTooltip name="КонтактныеЛицаСостояниеПросмотраРасширеннаяПодсказка" id="43"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="КонтактныеЛицаУправлениеПоиском" id="44">
+				<AdditionSource>
+					<Item>КонтактныеЛица</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="КонтактныеЛицаУправлениеПоискомКонтекстноеМеню" id="45"/>
+				<ExtendedTooltip name="КонтактныеЛицаУправлениеПоискомРасширеннаяПодсказка" id="46"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="КонтактныеЛицаНомерСтроки" id="47">
+					<DataPath>Объект.КонтактныеЛица.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КонтактныеЛицаНомерСтрокиКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="КонтактныеЛицаНомерСтрокиРасширеннаяПодсказка" id="49"/>
+				</LabelField>
+				<InputField name="КонтактныеЛицаФИО" id="50">
+					<DataPath>Объект.КонтактныеЛица.ФИО</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КонтактныеЛицаФИОКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="КонтактныеЛицаФИОРасширеннаяПодсказка" id="52"/>
+				</InputField>
+				<InputField name="КонтактныеЛицаКоментарий" id="56">
+					<DataPath>Объект.КонтактныеЛица.Коментарий</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КонтактныеЛицаКоментарийКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="КонтактныеЛицаКоментарийРасширеннаяПодсказка" id="58"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.УЦ_Ученики</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
